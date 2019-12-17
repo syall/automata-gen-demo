@@ -30,22 +30,49 @@ body,
   text-align: 'center';
 }
 
-.controls {
+.container {
   display: grid;
-  width: 80vmin;
+  width: 75vmin;
+  grid-gap: 1px;
+  background-color: black;
+  border: 1px solid black;
+  margin-bottom: 1vmin;
+}
+
+.controls {
   grid-template-columns: repeat(5, 1fr);
 }
 
-.control {
+.automatas {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.item {
   background-color: white;
-  border: solid 1px black;
+  border: solid 0px black;
   color: black;
-  margin: auto;
-  margin-bottom: 1vmin;
-  padding: 1vmin;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 2vmin;
   min-width: 8vmin;
+  min-height: 4vmin;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 1vmin;
+}
+
+.link {
+  height: 4vmin;
+  width: 4vmin;
+  padding: 0 1vmin;
+}
+
+.hide {
+    background-color: #ffffff;
+    cursor: not-allowed;
+    opacity: 0.95;
+    color: rgba(0, 0, 0, 0.3);
 }
