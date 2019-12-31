@@ -10,8 +10,8 @@ export default function AutomataGenDemo() {
   // Automata Definition
 
   const initLife = () => {
-    const emptyCell = { state: 0, display: '0' };
-    const aliveCell = { state: 1, display: '1' };
+    const emptyCell = { state: 0, display: ' ' };
+    const aliveCell = { state: 1, display: '■' };
     const initRules = {
       options: {
         random: true,
