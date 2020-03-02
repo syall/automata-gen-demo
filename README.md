@@ -2,13 +2,13 @@
 
 ## Overview
 
-`automata-gen-demo` is a demo for the library [`automata-gen`](https://github.com/syall/automata-gen)
+**automata-gen-demo** is a demo for the library [`automata-gen`](https://github.com/syall/automata-gen)
 
 ## Technical Notes
 
-The basis of the demo was bootstrapped with [`create-react-app`](https://github.com/facebook/create-react-app).
+The initial generated code of the demo was bootstrapped with [`create-react-app`](https://github.com/facebook/create-react-app).
 
-The main component `AutomataGenDemo` is written as a functional component with React hooks.
+The main component `AutomataGenDemo` is a functional component with React hooks.
 
 ## automata-gen
 
